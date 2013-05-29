@@ -26,7 +26,7 @@ public class DisplayMessageActivity extends Activity {
 		textView.setText(Message);
 		
 		//set the text as the activity layout //
-		setContentView(R.layout.activity_display_message);
+		setContentView(textView);
 		
 		
 		// Make sure we're running on Honeycomb or higher to use ActionBar APIs
